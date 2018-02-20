@@ -49,8 +49,8 @@ public class Cli {
         try {
             cmd = parser.parse(options, args);
 
-//            if (cmd.hasOption("h"))
-//                help();
+            if (cmd.hasOption("h"))
+                help();
 
 
             //config from file
